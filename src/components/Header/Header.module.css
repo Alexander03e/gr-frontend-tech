@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--header-color);
+  box-shadow: 0 5px 5px #c7c7c7;
+  margin-bottom: 4em;
+}
+.wrapper {
+  display: flex;
+}
+.link {
+  padding: 1.7em 2em;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+:global(.active) {
+  background-color: #1e88e5;
+  opacity: 1;
+}
+
+li > :global(a.active) {
+  background-color: black;
+}

@@ -1,0 +1,24 @@
+.wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: grid;
+  grid-gap: 3vw;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.skeletonWrapper {
+  width: 100%;
+  /* padding-bottom: 100%; */
+  /* cursor: pointer; */
+  /* background-color: rgb(177, 177, 177); */
+  overflow: hidden;
+  position: relative;
+  transition: 0.15s;
+}
