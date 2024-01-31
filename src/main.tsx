@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import { store } from "./redux/index.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/gr-tech">
+  <BrowserRouter basename="/gr-frontend-tech">
     <Provider store={store}>
       <App />
     </Provider>

@@ -14,3 +14,6 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+.scroll-trigger {
+  padding: 2em 0;
+}

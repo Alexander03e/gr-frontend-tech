@@ -29,7 +29,7 @@ function App() {
       <div className="container">
         <MainRoutes />
       </div>
-      <div ref={ref}></div>
+      <div ref={ref} className="scroll-trigger"></div>
     </>
   );
 }
